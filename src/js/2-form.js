@@ -1,3 +1,5 @@
+import '../css/form.css';
+
 const form = document.querySelector(".feedback-form");
 
 const formData = {
@@ -53,6 +55,6 @@ function handleSubmit(event) {
   form.reset();
 }
 
-import '../css/form.css';
+
 
 
